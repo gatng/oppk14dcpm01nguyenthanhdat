@@ -32,7 +32,7 @@ public class ueser {
     }
 
     void nhapten(){
-        System.out.print("Nhap vao ten nhan vien: ");
+        System.out.print("Nhap vao ten nguoi dung: ");
         ten = input.nextLine();
     }
 
