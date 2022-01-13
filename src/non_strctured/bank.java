@@ -1,4 +1,4 @@
-package non_strctured;
+package Non_Strctured;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package oo;
+package Oo;
 
 public class employeetestdrive {
     public static void main(String[] args) {

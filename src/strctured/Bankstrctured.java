@@ -1,4 +1,4 @@
-package strctured;
+package Strctured;
 
 import java.util.Scanner;
 
