@@ -14,7 +14,7 @@ public class emlpoyee {
 
     }
     void nhapluong(){
-        System.out.print("Nhap vao ten luong vien: ");
+        System.out.print("Nhap vao  luong vien: ");
         int depositAmount = input.nextInt();
         luong +=depositAmount;
     }
