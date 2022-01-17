@@ -1,8 +1,8 @@
-package Oo;
+package oo;
 
 import java.util.Scanner;
 
-public class acc {
+public class Acc {
     int account_number = 12345;
     int account_banlance = 0;
 

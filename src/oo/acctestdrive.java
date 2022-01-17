@@ -1,11 +1,11 @@
-package Oo;
+package oo;
 
-public class acctestdrive {
+public class AccTestDrive {
     public static void main(String[] args) {
         //Bien tham chieu doi tuong
-        acc account;
+        Acc account;
 
-        account = new acc();
+        account = new Acc();
 
         account.show();
         account.depoist();

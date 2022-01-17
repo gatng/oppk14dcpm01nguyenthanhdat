@@ -1,8 +1,8 @@
-package Oo;
+package oo;
 
 import java.util.Scanner;
 
-public class emlpoyee {
+public class Emlpoyee {
     String ten;
     int luong=0;
     Scanner input = new Scanner(System.in);

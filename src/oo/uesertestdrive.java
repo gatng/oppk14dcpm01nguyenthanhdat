@@ -1,9 +1,9 @@
-package Oo;
+package oo;
 
-public class uesertestdrive {
+public class UeserTestDrive {
     public static void main(String[] args) {
-        ueser ueseracc;
-        ueseracc=new ueser();
+        Ueser ueseracc;
+        ueseracc=new Ueser();
         ueseracc.nhapten();
         ueseracc.depoist();
         ueseracc.show();

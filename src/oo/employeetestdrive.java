@@ -1,9 +1,9 @@
-package Oo;
+package oo;
 
-public class employeetestdrive {
+public class EmployeeTestDrive {
     public static void main(String[] args) {
-        emlpoyee emlpoyeeacc;
-        emlpoyeeacc =new emlpoyee();
+        Emlpoyee emlpoyeeacc;
+        emlpoyeeacc =new Emlpoyee();
 
         emlpoyeeacc.nhapten();
         emlpoyeeacc.nhapluong();
