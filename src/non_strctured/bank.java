@@ -1,8 +1,8 @@
-package Non_Strctured;
+package non_strctured;
 
 import java.util.Scanner;
 
-public class bank {
+public class Bank {
     public static void main(String[] args) {
         int accnumber = 122;
         int accbanlace = 0;
