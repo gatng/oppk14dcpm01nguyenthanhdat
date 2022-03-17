@@ -1,0 +1,58 @@
+package BaiGiuaKy;
+
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
+ 
+public class GiaoDichnhadat
+
+public static void main(String[] args) throws ParseException {
+    
+
+    ListGiaoDich lGD = new ListGiaoDich();
+    Scanner sc = new Scanner(System.in);
+
+    int luaChon;
+    do{
+        System.out.println("=================Giao Dich=======");
+        System.out.println("1.Them giao dich dat");
+        System.out.println("2.Them giao dich nha");
+        System.out.println("3.Hien thi danh sach cac giao dich");
+        System.out.println("4.Tong so luong tung loai giao dich");
+        System.out.println("5.Trung binh thanh tien giao dich dat");
+        System.out.println("6.Xuat cac giao dich cua thang 9 nam 2013");
+        System.out.println("0.Thoat");
+        System.out.println(" ==============================");
+        System.out.print("Lua chon :");
+        luaChon = sc.nextInt();
+
+
+        switch (luaChon) {
+            case (1):
+                lGd.nhapDS(1);
+                break;
+            case (2):
+                lGd.nhapDS(2);
+                break;
+            case (3):
+                lGd.inDS();
+                break;
+            case (4):
+                lGd.tongSLTungLoai();
+                break;
+            case (5):
+                lGd.tBThanhTienGDDat();
+                break;
+            case (6):
+                lGd.inGiaoDichTheoThang();
+                break;
+        }
+
+    }while(luaChon != 0);
+}
+    
+
+}
