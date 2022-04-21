@@ -7,8 +7,11 @@ import java.util.List;
 import java.util.Scanner;
 
  
+public class GiaoDichnhadat
 
 public static void main(String[] args) throws ParseException {
+    
+
     ListGiaoDich lGD = new ListGiaoDich();
     Scanner sc = new Scanner(System.in);
 
